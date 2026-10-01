@@ -1,1 +1,3 @@
-npm test
+task sync
+git add package.json package-lock.json pyproject.toml uv.lock
+task test
