@@ -1,0 +1,29 @@
+{
+  "name": "shakespeare",
+  "version": "0.0.1",
+  "description": "App with optimised UX special design and with rich featchers, easy-to-use friendly UI and advanced mechanics targeted to hard task with one simple assumption: \"𝐖𝐑𝐈𝐓𝐄 𝐀 𝐁𝐎𝐎𝐊\" - for writters to writters to write books easier, better and with results attchiving faster",
+  "keywords": [
+    "shakespeare"
+  ],
+  "homepage": "https://github.com/Sarverott/shakespeare#readme",
+  "bugs": {
+    "url": "https://github.com/Sarverott/shakespeare/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/shakespeare.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "Sett Sarverott A.A.B. <sett@sarverott.com> (https://sett.sarverott.com)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "task test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@go-task/cli": "^3.53.1",
+    "husky": "^9.1.7",
+    "octokit": "^5.0.5"
+  }
+}
